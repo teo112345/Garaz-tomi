@@ -4,42 +4,39 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Garage Tomi - Accueil</title>
-  <meta name="description" content="Garage automobile spécialisé en nettoyage FAP, géométrie, entretien et mécanique générale." />
+  <meta
+    name="description"
+    content="Garage automobile spécialisé en nettoyage FAP, géométrie, entretien et mécanique générale."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
-  <a href="tel:+33673508809" class="floating-phone" aria-label="Appeler le garage">
-  📞
-</a>
-
-<script src="script.js"></script>
-</body>
-</html>
 <body>
 
   <!-- HEADER -->
   <header>
-  <div class="container navbar">
-    <a href="index.html" class="logo">Garage <span>Tomi</span></a>
+    <div class="container navbar">
+      <a href="index.html" class="logo">Garage <span>Tomi</span></a>
 
-    <div class="menu-toggle" id="menu-toggle">☰</div>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
 
-    <nav class="nav-links" id="nav-links">
-      <a href="index.html" class="active" data-fr="Accueil" data-pl="Strona główna">Accueil</a>
-      <a href="service.html" data-fr="Services" data-pl="Usługi">Services</a>
-      <a href="avis.html" data-fr="Avis" data-pl="Opinie">Avis</a>
-      <a href="galerie.html" data-fr="Galerie" data-pl="Galeria">Galerie</a>
-      <a href="contact.html" data-fr="Contact" data-pl="Kontakt">Contact</a>
-    </nav>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="active" data-fr="Accueil" data-pl="Strona główna">Accueil</a>
+        <a href="service.html" data-fr="Services" data-pl="Usługi">Services</a>
+        <a href="avis.html" data-fr="Avis" data-pl="Opinie">Avis</a>
+        <a href="galerie.html" data-fr="Galerie" data-pl="Galeria">Galerie</a>
+        <a href="contact.html" data-fr="Contact" data-pl="Kontakt">Contact</a>
+      </nav>
 
-    <div class="lang-switch">
-      <button class="lang-btn" onclick="setLanguage('fr')">FR</button>
-      <button class="lang-btn" onclick="setLanguage('pl')">PL</button>
+      <div class="lang-switch">
+        <button class="lang-btn" onclick="setLanguage('fr')">FR</button>
+        <button class="lang-btn" onclick="setLanguage('pl')">PL</button>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<div class="menu-overlay" id="menu-overlay"></div>
-<div class="menu-overlay" id="menu-overlay"></div>
+  <!-- OVERLAY MENU -->
+  <div class="menu-overlay" id="menu-overlay"></div>
+
   <!-- INFO STRIP -->
   <div class="info-strip">
     <div class="container">
@@ -75,7 +72,8 @@
 
         <div class="hero-buttons">
           <a
-            href="contact.html"
+            href="https://wa.me/33673508809"
+            target="_blank"
             class="btn"
             data-fr="Prendre rendez-vous"
             data-pl="Umów wizytę"
@@ -337,13 +335,22 @@
 
       <div class="gallery-grid">
         <div class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=900&q=80" alt="Atelier garage" />
+          <img
+            src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=900&q=80"
+            alt="Atelier garage"
+          />
         </div>
         <div class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Machine Fap" />
+          <img
+            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80"
+            alt="Machine FAP"
+          />
         </div>
         <div class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1613214150384-3b8b8f5f8d5d?auto=format&fit=crop&w=900&q=80" alt="Voiture sur Pont" />
+          <img
+            src="https://images.unsplash.com/photo-1613214150384-3b8b8f5f8d5d?auto=format&fit=crop&w=900&q=80"
+            alt="Voiture sur pont"
+          />
         </div>
       </div>
 
@@ -378,8 +385,9 @@
       </p>
 
       <a
-        href="contact.html"
+        href="https://wa.me/33673508809"
         class="btn"
+        target="_blank"
         data-fr="Nous contacter"
         data-pl="Skontaktuj się z nami"
       >
@@ -389,105 +397,58 @@
   </section>
 
   <!-- FOOTER -->
- <footer>
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title">Garage Tomi</h3>
+          <p
+            data-fr="Garage automobile spécialisé en nettoyage FAP, géométrie et mécanique générale."
+            data-pl="Warsztat samochodowy specjalizujący się w czyszczeniu FAP, geometrii i mechanice ogólnej."
+          >
+            Garage automobile spécialisé en nettoyage FAP, géométrie et mécanique générale.
+          </p>
+        </div>
 
-<div class="container">
+        <div>
+          <h3 class="footer-title" data-fr="Navigation" data-pl="Nawigacja">
+            Navigation
+          </h3>
+          <div class="footer-links">
+            <a href="index.html" data-fr="Accueil" data-pl="Strona główna">Accueil</a>
+            <a href="service.html" data-fr="Services" data-pl="Usługi">Services</a>
+            <a href="avis.html" data-fr="Avis" data-pl="Opinie">Avis</a>
+            <a href="galerie.html" data-fr="Galerie" data-pl="Galeria">Galerie</a>
+            <a href="contact.html" data-fr="Contact" data-pl="Kontakt">Contact</a>
+          </div>
+        </div>
 
-<div class="footer-grid">
+        <div>
+          <h3 class="footer-title" data-fr="Contact" data-pl="Kontakt">
+            Contact
+          </h3>
+          <div class="footer-links">
+            <a href="tel:+33673508809">📞 06 73 50 88 09</a>
+            <a href="https://wa.me/33673508809" target="_blank">WhatsApp</a>
+          </div>
+        </div>
+      </div>
 
-<div>
+      <div
+        class="footer-bottom"
+        data-fr="© 2026 Garage Tomi - Tous droits réservés."
+        data-pl="© 2026 Garage Tomi - Wszelkie prawa zastrzeżone."
+      >
+        © 2026 Garage Tomi - Tous droits réservés.
+      </div>
+    </div>
+  </footer>
 
-<h3 class="footer-title">Garage Tomi</h3>
+  <!-- BOUTON TELEPHONE FLOTTANT -->
+  <a href="tel:+33673508809" class="floating-phone" aria-label="Appeler le garage">
+    📞
+  </a>
 
-<p
-data-fr="Garage automobile spécialisé en nettoyage FAP, géométrie et mécanique générale."
-data-pl="Warsztat samochodowy specjalizujący się w czyszczeniu FAP, geometrii i mechanice ogólnej.">
-Garage automobile spécialisé en nettoyage FAP, géométrie et mécanique générale.
-</p>
-
-</div>
-
-
-<div>
-
-<h3
-class="footer-title"
-data-fr="Navigation"
-data-pl="Nawigacja">
-Navigation
-</h3>
-
-<div class="footer-links">
-
-<a href="index.html"
-data-fr="Accueil"
-data-pl="Strona główna">Accueil</a>
-
-<a href="service.html"
-data-fr="Services"
-data-pl="Usługi">Services</a>
-
-<a href="avis.html"
-data-fr="Avis"
-data-pl="Opinie">Avis</a>
-
-<a href="galerie.html"
-data-fr="Galerie"
-data-pl="Galeria">Galerie</a>
-
-<a href="contact.html"
-data-fr="Contact"
-data-pl="Kontakt">Contact</a>
-
-</div>
-
-</div>
-
-
-<div>
-
-<h3
-class="footer-title"
-data-fr="Contact"
-data-pl="Kontakt">
-Contact
-</h3>
-
-<div class="footer-links">
-
-<a href="tel:+33673508809">
-📞 06 73 50 88 09
-</a>
-
-<a href="https://wa.me/33673508809" target="_blank">
-WhatsApp
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div
-class="footer-bottom"
-data-fr="© 2026 Garage Tomi - Tous droits réservés."
-data-pl="© 2026 Garage Tomi - Wszelkie prawa zastrzeżone.">
-
-© 2026 Garage Tomi - Tous droits réservés.
-
-</div>
-
-</div>
-
-</footer>
-
-
-<div class="menu-overlay" id="menu-overlay"></div>
-
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
