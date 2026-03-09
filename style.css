@@ -727,3 +727,29 @@ footer {
     text-align: center;
   }
 }
+/* =========================
+   FLOATING PHONE BUTTON
+========================= */
+
+.floating-phone {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  z-index: 1200;
+  transition: 0.3s;
+}
+
+.floating-phone:hover {
+  transform: scale(1.1);
+  background: var(--primary-hover);
+}
