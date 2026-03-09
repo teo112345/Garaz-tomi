@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Garage Auto - Accueil</title>
+  <meta name="description" content="Garage automobile spécialisé en nettoyage FAP, géométrie, entretien et mécanique générale." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        Garage <span>Auto</span>
+      </a>
+
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="active" data-fr="Accueil" data-pl="Strona główna">Accueil</a>
+        <a href="service.html" data-fr="Services" data-pl="Usługi">Services</a>
+        <a href="avis.html" data-fr="Avis" data-pl="Opinie">Avis</a>
+        <a href="galerie.html" data-fr="Galerie" data-pl="Galeria">Galerie</a>
+        <a href="contact.html" data-fr="Contact" data-pl="Kontakt">Contact</a>
+      </nav>
+
+      <div class="lang-switch">
+        <button class="lang-btn" onclick="setLanguage('fr')">FR</button>
+        <button class="lang-btn" onclick="setLanguage('pl')">PL</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- INFO STRIP -->
+  <div class="info-strip">
+    <div class="container">
+      <div class="info-item" data-fr="Spécialiste nettoyage FAP" data-pl="Specjalista czyszczenia FAP">
+        Spécialiste nettoyage FAP
+      </div>
+      <div class="info-item" data-fr="Géométrie et entretien complet" data-pl="Geometria i pełna obsługa">
+        Géométrie et entretien complet
+      </div>
+      <div class="info-item" data-fr="Mécanique générale toutes marques" data-pl="Mechanika ogólna wszystkich marek">
+        Mécanique générale toutes marques
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1
+          data-fr="Votre garage automobile de confiance"
+          data-pl="Twój zaufany warsztat samochodowy"
+        >
+          Votre garage automobile de confiance
+        </h1>
+
+        <p
+          data-fr="Spécialisé dans le nettoyage FAP, la géométrie, l’entretien et la mécanique générale. Nous prenons soin de votre véhicule avec sérieux, efficacité et professionnalisme."
+          data-pl="Specjalizujemy się w czyszczeniu FAP, geometrii, serwisie oraz mechanice ogólnej. Dbamy o Twój pojazd rzetelnie, skutecznie i profesjonalnie."
+        >
+          Spécialisé dans le nettoyage FAP, la géométrie, l’entretien et la mécanique générale. Nous prenons soin de votre véhicule avec sérieux, efficacité et professionnalisme.
+        </p>
+
+        <div class="hero-buttons">
+          <a
+            href="contact.html"
+            class="btn"
+            data-fr="Prendre rendez-vous"
+            data-pl="Umów wizytę"
+          >
+            Prendre rendez-vous
+          </a>
+
+          <a
+            href="service.html"
+            class="btn-outline"
+            data-fr="Découvrir nos services"
+            data-pl="Poznaj nasze usługi"
+          >
+            Découvrir nos services
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section>
+    <div class="container">
+      <h2
+        class="section-title"
+        data-fr="Nos services principaux"
+        data-pl="Nasze główne usługi"
+      >
+        Nos services principaux
+      </h2>
+
+      <p
+        class="section-subtitle"
+        data-fr="Nous proposons un service complet pour l’entretien, le diagnostic et la réparation de votre véhicule."
+        data-pl="Oferujemy kompleksową obsługę w zakresie serwisu, diagnostyki i naprawy Twojego pojazdu."
+      >
+        Nous proposons un service complet pour l’entretien, le diagnostic et la réparation de votre véhicule.
+      </p>
+
+      <div class="grid grid-3">
+        <div class="card service-card">
+          <div class="service-icon">🚗</div>
+          <h3 data-fr="Nettoyage FAP" data-pl="Czyszczenie FAP">Nettoyage FAP</h3>
+          <p
+            data-fr="Diagnostic, nettoyage et remise en état du filtre à particules pour améliorer les performances du véhicule."
+            data-pl="Diagnostyka, czyszczenie i regeneracja filtra cząstek stałych w celu poprawy osiągów pojazdu."
+          >
+            Diagnostic, nettoyage et remise en état du filtre à particules pour améliorer les performances du véhicule.
+          </p>
+        </div>
+
+        <div class="card service-card">
+          <div class="service-icon">🛞</div>
+          <h3 data-fr="Géométrie" data-pl="Geometria kół">Géométrie</h3>
+          <p
+            data-fr="Réglage précis de la géométrie pour une meilleure tenue de route, moins d’usure et plus de sécurité."
+            data-pl="Precyzyjne ustawienie geometrii dla lepszego prowadzenia, mniejszego zużycia i większego bezpieczeństwa."
+          >
+            Réglage précis de la géométrie pour une meilleure tenue de route, moins d’usure et plus de sécurité.
+          </p>
+        </div>
+
+        <div class="card service-card">
+          <div class="service-icon">🔧</div>
+          <h3 data-fr="Mécanique générale" data-pl="Mechanika ogólna">Mécanique générale</h3>
+          <p
+            data-fr="Vidange, freins, filtres, moteur, embrayage, diagnostic électronique et réparations toutes marques."
+            data-pl="Wymiana oleju, hamulce, filtry, silnik, sprzęgło, diagnostyka elektroniczna i naprawy wszystkich marek."
+          >
+            Vidange, freins, filtres, moteur, embrayage, diagnostic électronique et réparations toutes marques.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center mt-40">
+        <a
+          href="service.html"
+          class="btn"
+          data-fr="Voir tous les services"
+          data-pl="Zobacz wszystkie usługi"
+        >
+          Voir tous les services
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="container content-block">
+      <div class="content-text">
+        <h2
+          data-fr="Un garage sérieux pour tous vos besoins"
+          data-pl="Rzetelny warsztat do wszystkich potrzeb"
+        >
+          Un garage sérieux pour tous vos besoins
+        </h2>
+
+        <p
+          data-fr="Notre garage prend en charge l’entretien courant, les réparations mécaniques, le nettoyage FAP, les contrôles et la géométrie de votre véhicule."
+          data-pl="Nasz warsztat zajmuje się bieżącym serwisem, naprawami mechanicznymi, czyszczeniem FAP, kontrolą oraz geometrią Twojego pojazdu."
+        >
+          Notre garage prend en charge l’entretien courant, les réparations mécaniques, le nettoyage FAP, les contrôles et la géométrie de votre véhicule.
+        </p>
+
+        <p
+          data-fr="Notre objectif est simple : offrir un travail de qualité, des conseils honnêtes et un service rapide pour que vous rouliez en toute sécurité."
+          data-pl="Nasz cel jest prosty: zapewnić wysoką jakość pracy, uczciwe doradztwo i szybką obsługę, abyś mógł jeździć bezpiecznie."
+        >
+          Notre objectif est simple : offrir un travail de qualité, des conseils honnêtes et un service rapide pour que vous rouliez en toute sécurité.
+        </p>
+
+        <div
+          class="highlight-box"
+          data-fr="Intervention sur entretien, filtres, moteur, diagnostics et réparations toutes marques."
+          data-pl="Obsługa serwisowa, filtry, silnik, diagnostyka i naprawy wszystkich marek."
+        >
+          Intervention sur entretien, filtres, moteur, diagnostics et réparations toutes marques.
+        </div>
+      </div>
+
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1200&q=80"
+          alt="Garage automobile"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <h2
+        class="section-title"
+        data-fr="Pourquoi nous choisir ?"
+        data-pl="Dlaczego warto nas wybrać?"
+      >
+        Pourquoi nous choisir ?
+      </h2>
+
+      <p
+        class="section-subtitle"
+        data-fr="Un service professionnel, rapide et adapté à chaque véhicule."
+        data-pl="Profesjonalna, szybka i dopasowana obsługa do każdego pojazdu."
+      >
+        Un service professionnel, rapide et adapté à chaque véhicule.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <h3>100%</h3>
+          <p data-fr="Travail soigné" data-pl="Staranna praca">Travail soigné</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>✔</h3>
+          <p data-fr="Diagnostic précis" data-pl="Precyzyjna diagnostyka">Diagnostic précis</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>⚙</h3>
+          <p data-fr="Équipement professionnel" data-pl="Profesjonalny sprzęt">Équipement professionnel</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>🚘</h3>
+          <p data-fr="Toutes marques" data-pl="Wszystkie marki">Toutes marques</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVIS PREVIEW -->
+  <section>
+    <div class="container">
+      <h2
+        class="section-title"
+        data-fr="Ce que disent nos clients"
+        data-pl="Co mówią nasi klienci"
+      >
+        Ce que disent nos clients
+      </h2>
+
+      <p
+        class="section-subtitle"
+        data-fr="La satisfaction de nos clients est au cœur de notre travail."
+        data-pl="Zadowolenie naszych klientów jest dla nas najważniejsze."
+      >
+        La satisfaction de nos clients est au cœur de notre travail.
+      </p>
+
+      <div class="grid grid-3">
+        <div class="card testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p
+            data-fr="Très bon garage, travail propre et rapide. Mon problème de FAP a été résolu efficacement."
+            data-pl="Bardzo dobry warsztat, czysta i szybka praca. Problem z FAP został skutecznie rozwiązany."
+          >
+            Très bon garage, travail propre et rapide. Mon problème de FAP a été résolu efficacement.
+          </p>
+          <div class="client-name">Karim</div>
+        </div>
+
+        <div class="card testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p
+            data-fr="Accueil sérieux, bons conseils et géométrie parfaite. Je recommande."
+            data-pl="Profesjonalna obsługa, dobre doradztwo i idealnie ustawiona geometria. Polecam."
+          >
+            Accueil sérieux, bons conseils et géométrie parfaite. Je recommande.
+          </p>
+          <div class="client-name">Marek</div>
+        </div>
+
+        <div class="card testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p
+            data-fr="Garage très professionnel pour l’entretien et la mécanique générale. Prix corrects et service efficace."
+            data-pl="Bardzo profesjonalny warsztat do serwisu i mechaniki ogólnej. Uczciwe ceny i skuteczna obsługa."
+          >
+            Garage très professionnel pour l’entretien et la mécanique générale. Prix corrects et service efficace.
+          </p>
+          <div class="client-name">Sofia</div>
+        </div>
+      </div>
+
+      <div class="text-center mt-40">
+        <a
+          href="avis.html"
+          class="btn-outline"
+          data-fr="Voir tous les avis"
+          data-pl="Zobacz wszystkie opinie"
+        >
+          Voir tous les avis
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE PREVIEW -->
+  <section>
+    <div class="container">
+      <h2
+        class="section-title"
+        data-fr="Galerie"
+        data-pl="Galeria"
+      >
+        Galerie
+      </h2>
+
+      <p
+        class="section-subtitle"
+        data-fr="Découvrez quelques photos de notre atelier et de nos interventions."
+        data-pl="Zobacz kilka zdjęć naszego warsztatu i realizacji."
+      >
+        Découvrez quelques photos de notre atelier et de nos interventions.
+      </p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=900&q=80" alt="Atelier garage" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Voiture atelier" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1613214150384-3b8b8f5f8d5d?auto=format&fit=crop&w=900&q=80" alt="Réparation automobile" />
+        </div>
+      </div>
+
+      <div class="text-center mt-40">
+        <a
+          href="galerie.html"
+          class="btn"
+          data-fr="Voir la galerie"
+          data-pl="Zobacz galerię"
+        >
+          Voir la galerie
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2
+        data-fr="Besoin d’un entretien ou d’une réparation ?"
+        data-pl="Potrzebujesz serwisu lub naprawy?"
+      >
+        Besoin d’un entretien ou d’une réparation ?
+      </h2>
+
+      <p
+        data-fr="Contactez-nous dès aujourd’hui pour prendre rendez-vous ou demander un diagnostic."
+        data-pl="Skontaktuj się z nami już dziś, aby umówić wizytę lub poprosić o diagnozę."
+      >
+        Contactez-nous dès aujourd’hui pour prendre rendez-vous ou demander un diagnostic.
+      </p>
+
+      <a
+        href="contact.html"
+        class="btn"
+        data-fr="Nous contacter"
+        data-pl="Skontaktuj się z nami"
+      >
+        Nous contacter
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title">Garage Auto</h3>
+          <p
+            data-fr="Garage automobile spécialisé en nettoyage FAP, géométrie, entretien et mécanique générale."
+            data-pl="Warsztat samochodowy specjalizujący się w czyszczeniu FAP, geometrii, serwisie i mechanice ogólnej."
+          >
+            Garage automobile spécialisé en nettoyage FAP, géométrie, entretien et mécanique générale.
+          </p>
+        </div>
+
+        <div>
+          <h3
+            class="footer-title"
+            data-fr="Navigation"
+            data-pl="Nawigacja"
+          >
+            Navigation
+          </h3>
+          <div class="footer-links">
+            <a href="index.html" data-fr="Accueil" data-pl="Strona główna">Accueil</a>
+            <a href="service.html" data-fr="Services" data-pl="Usługi">Services</a>
+            <a href="avis.html" data-fr="Avis" data-pl="Opinie">Avis</a>
+            <a href="galerie.html" data-fr="Galerie" data-pl="Galeria">Galerie</a>
+            <a href="contact.html" data-fr="Contact" data-pl="Kontakt">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h3
+            class="footer-title"
+            data-fr="Contact"
+            data-pl="Kontakt"
+          >
+            Contact
+          </h3>
+          <div class="footer-links">
+            <a href="tel:+33000000000">+33 0 00 00 00 00</a>
+            <a href="mailto:contact@garageauto.fr">contact@garageauto.fr</a>
+            <span
+              data-fr="Adresse du garage"
+              data-pl="Adres warsztatu"
+            >
+              Adresse du garage
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="footer-bottom"
+        data-fr="© 2026 Garage Auto - Tous droits réservés."
+        data-pl="© 2026 Garage Auto - Wszelkie prawa zastrzeżone."
+      >
+        © 2026 Garage Auto - Tous droits réservés.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
