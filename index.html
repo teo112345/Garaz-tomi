@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=20261002b" />
 
   <script type="application/ld+json">
   {
@@ -90,7 +90,6 @@
       <a href="#services" data-fr="Services" data-pl="Usługi">Services</a>
       <a href="#avis" data-fr="Avis" data-pl="Opinie">Avis</a>
       <a href="fap.html" data-fr="Nettoyage FAP" data-pl="Czyszczenie FAP">Nettoyage FAP</a>
-      <a href="#galerie" data-fr="Photos" data-pl="Zdjęcia">Photos</a>
       <a href="#contact" data-fr="Contact" data-pl="Kontakt">Contact</a>
     </nav>
 
@@ -169,39 +168,38 @@
 
   <!-- VÉHICULES -->
   <section id="vehicules">
-    <div class="container">
-      <div class="section-title">
-        <h2 data-fr="Les véhicules qu’on répare tous les jours" data-pl="Pojazdy, które naprawiamy na co dzień">Les véhicules qu’on répare tous les jours</h2>
-        <p data-fr="Des utilitaires qui roulent toute la semaine en France et dans toute l’Europe, et qui ne peuvent pas rester immobilisés."
-           data-pl="Busy, które jeżdżą cały tydzień po Francji i całej Europie i nie mogą długo stać.">Des utilitaires qui roulent toute la semaine en France et dans toute l’Europe, et qui ne peuvent pas rester immobilisés.</p>
+    <div class="container split center">
+      <figure class="split-photo">
+        <img src="images/intervention-porteur-1400.webp"
+             srcset="images/intervention-porteur-800.webp 800w, images/intervention-porteur-1400.webp 1400w" sizes="(max-width: 1024px) 100vw, 540px"
+             width="1400" height="1050" loading="lazy" style="aspect-ratio: 4 / 3.4;"
+             alt="Porteur bâché en intervention, cabine basculée" data-fr-alt="Porteur bâché en intervention, cabine basculée" data-pl-alt="Ciężarówka z plandeką w naprawie, podniesiona kabina" />
+      </figure>
+      <div>
+        <div class="section-title" style="margin-bottom:28px">
+          <h2 data-fr="Les véhicules qu’on répare tous les jours" data-pl="Pojazdy, które naprawiamy na co dzień">Les véhicules qu’on répare tous les jours</h2>
+          <p data-fr="Des utilitaires qui roulent toute la semaine en France et dans toute l’Europe, et qui ne peuvent pas rester immobilisés."
+             data-pl="Busy, które jeżdżą cały tydzień po Francji i całej Europie i nie mogą długo stać.">Des utilitaires qui roulent toute la semaine en France et dans toute l’Europe, et qui ne peuvent pas rester immobilisés.</p>
+        </div>
+        <ul class="vehicle-list">
+          <li>
+            <h3><span data-fr="Bâchés -3,5 t" data-pl="Plandeki do 3,5 t">Bâchés -3,5 t</span><small>plandeka</small></h3>
+            <p data-fr="Notre spécialité : les bâchés du transport international." data-pl="Nasza specjalność: busy z plandeką w transporcie międzynarodowym.">Notre spécialité : les bâchés du transport international.</p>
+          </li>
+          <li>
+            <h3><span data-fr="Frigos et caisses" data-pl="Chłodnie i kontenery">Frigos et caisses</span><small>chłodnia</small></h3>
+            <p data-fr="Un frigo à l’arrêt, c’est une marchandise qui attend. On s’occupe de la mécanique." data-pl="Stojąca chłodnia to towar, który czeka. Zajmujemy się mechaniką.">Un frigo à l’arrêt, c’est une marchandise qui attend. On s’occupe de la mécanique.</p>
+          </li>
+          <li>
+            <h3><span data-fr="Châssis-cabine" data-pl="Podwozia z kabiną">Châssis-cabine</span><small>podwozie</small></h3>
+            <p data-fr="Plateaux, caisses, carrosseries spéciales : toutes les bases utilisées dans le transport." data-pl="Platformy, kontenery, zabudowy specjalne: wszystkie podwozia używane w transporcie.">Plateaux, caisses, carrosseries spéciales : toutes les bases utilisées dans le transport.</p>
+          </li>
+        </ul>
+        <p class="brands">
+          <strong data-fr="Toutes marques :" data-pl="Wszystkie marki:">Toutes marques :</strong>
+          Renault Master, Iveco Daily, Mercedes Sprinter, Fiat Ducato, VW Crafter, Ford Transit, Peugeot Boxer, Citroën Jumper…
+        </p>
       </div>
-      <div class="vehicles">
-        <article class="vehicle">
-          <img src="images/atelier-master-bache-800.webp" width="800" height="600" loading="lazy" style="object-position: 85% 50%;"
-               alt="Utilitaire bâché Renault Master" data-fr-alt="Utilitaire bâché Renault Master" data-pl-alt="Renault Master z plandeką" />
-          <h3><span data-fr="Bâchés" data-pl="Plandeki">Bâchés</span><small>plandeka</small></h3>
-          <p data-fr="Notre spécialité. Les bâchés -3,5 t du transport international, en Europe on les appelle « plandeka »."
-             data-pl="Nasza specjalność. Busy z plandeką do 3,5 t w transporcie międzynarodowym.">Notre spécialité. Les bâchés -3,5 t du transport international, en Europe on les appelle « plandeka ».</p>
-        </article>
-        <article class="vehicle">
-          <img src="images/atelier-iveco-daily-600.webp" width="600" height="800" loading="lazy" style="object-position: 50% 40%;"
-               alt="Iveco Daily caisse sur pont élévateur" data-fr-alt="Iveco Daily caisse sur pont élévateur" data-pl-alt="Iveco Daily z zabudową na podnośniku" />
-          <h3><span data-fr="Frigos et caisses" data-pl="Chłodnie i kontenery">Frigos et caisses</span><small>chłodnia</small></h3>
-          <p data-fr="Un frigo à l’arrêt, c’est une marchandise qui attend. On s’occupe de la mécanique pour que vous repartiez vite."
-             data-pl="Stojąca chłodnia to towar, który czeka. Zajmujemy się mechaniką, żebyś szybko ruszył dalej.">Un frigo à l’arrêt, c’est une marchandise qui attend. On s’occupe de la mécanique pour que vous repartiez vite.</p>
-        </article>
-        <article class="vehicle">
-          <img src="images/depanneuse-plateau-800.webp" width="800" height="600" loading="lazy"
-               alt="Mercedes Sprinter châssis-cabine avec plateau" data-fr-alt="Mercedes Sprinter châssis-cabine avec plateau" data-pl-alt="Mercedes Sprinter podwozie z kabiną i platformą" />
-          <h3><span data-fr="Châssis-cabine" data-pl="Podwozia z kabiną">Châssis-cabine</span><small>podwozie</small></h3>
-          <p data-fr="Plateaux, caisses, carrosseries spéciales : toutes les bases châssis-cabine utilisées dans le transport."
-             data-pl="Platformy, kontenery, zabudowy specjalne: wszystkie podwozia z kabiną używane w transporcie.">Plateaux, caisses, carrosseries spéciales : toutes les bases châssis-cabine utilisées dans le transport.</p>
-        </article>
-      </div>
-      <p class="brands">
-        <strong data-fr="Toutes marques :" data-pl="Wszystkie marki:">Toutes marques :</strong>
-        Renault Master, Iveco Daily, Mercedes Sprinter, Fiat Ducato, VW Crafter, Ford Transit, Peugeot Boxer, Citroën Jumper…
-      </p>
     </div>
   </section>
 
@@ -348,39 +346,8 @@
     </div>
   </section>
 
-  <!-- PHOTOS -->
-  <section id="galerie">
-    <div class="container">
-      <div class="section-title">
-        <h2 data-fr="L’atelier en photos" data-pl="Warsztat na zdjęciach">L’atelier en photos</h2>
-      </div>
-      <div class="gallery">
-        <figure class="gallery-item wide" tabindex="0" data-full="images/atelier-master-bache-1600.webp">
-          <img src="images/atelier-master-bache-800.webp" width="800" height="600" loading="lazy" alt="Renault Master bâché, train avant" data-fr-alt="Renault Master bâché, train avant" data-pl-alt="Renault Master z plandeką, przednie zawieszenie" />
-          <figcaption data-fr="Renault Master bâché, train avant" data-pl="Renault Master z plandeką, przednie zawieszenie">Renault Master bâché, train avant</figcaption>
-        </figure>
-        <figure class="gallery-item" tabindex="0" data-full="images/atelier-iveco-daily-1000.webp">
-          <img src="images/atelier-iveco-daily-600.webp" width="600" height="800" loading="lazy" style="object-position: 50% 45%;" alt="Iveco Daily sur pont élévateur" data-fr-alt="Iveco Daily sur pont élévateur" data-pl-alt="Iveco Daily na podnośniku" />
-          <figcaption data-fr="Iveco Daily sur le pont" data-pl="Iveco Daily na podnośniku">Iveco Daily sur le pont</figcaption>
-        </figure>
-        <figure class="gallery-item" tabindex="0" data-full="images/intervention-porteur-1400.webp">
-          <img src="images/intervention-porteur-800.webp" width="800" height="600" loading="lazy" alt="Intervention sur un porteur bâché, cabine basculée" data-fr-alt="Intervention sur un porteur bâché, cabine basculée" data-pl-alt="Naprawa ciężarówki z plandeką, podniesiona kabina" />
-          <figcaption data-fr="Porteur bâché, cabine basculée" data-pl="Ciężarówka z plandeką, podniesiona kabina">Porteur bâché, cabine basculée</figcaption>
-        </figure>
-        <figure class="gallery-item" tabindex="0" data-full="images/depanneuse-plateau-1400.webp">
-          <img src="images/depanneuse-plateau-800.webp" width="800" height="600" loading="lazy" alt="Mercedes Sprinter châssis-cabine plateau" data-fr-alt="Mercedes Sprinter châssis-cabine plateau" data-pl-alt="Mercedes Sprinter, podwozie z platformą" />
-          <figcaption data-fr="Sprinter châssis-cabine plateau" data-pl="Sprinter, podwozie z platformą">Sprinter châssis-cabine plateau</figcaption>
-        </figure>
-        <figure class="gallery-item" tabindex="0" data-full="images/machine-fap-1000.webp">
-          <img src="images/machine-fap-600.webp" width="600" height="600" loading="lazy" alt="Machine de nettoyage FAP" data-fr-alt="Machine de nettoyage FAP" data-pl-alt="Maszyna do czyszczenia FAP" />
-          <figcaption data-fr="Machine de nettoyage FAP" data-pl="Maszyna do czyszczenia FAP">Machine de nettoyage FAP</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
   <!-- CONTACT -->
-  <section id="contact" class="bg-soft">
+  <section id="contact">
     <div class="container contact-grid">
       <div>
         <div class="section-title" style="margin-bottom:32px">
@@ -425,7 +392,6 @@
           <a href="#services" data-fr="Services" data-pl="Usługi">Services</a>
           <a href="#avis" data-fr="Avis Google" data-pl="Opinie Google">Avis Google</a>
           <a href="fap.html" data-fr="Nettoyage FAP" data-pl="Czyszczenie FAP">Nettoyage FAP</a>
-          <a href="#galerie" data-fr="Photos" data-pl="Zdjęcia">Photos</a>
         </div>
       </div>
       <div>
@@ -449,11 +415,6 @@
   <a href="https://wa.me/33759557233" data-wa target="_blank" rel="noopener" class="btn btn-line"><svg class="icon wa"><use href="#i-chat"/></svg><span>WhatsApp</span></a>
 </div>
 
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo">
-  <button class="lightbox-close" data-fr-aria="Fermer" data-pl-aria="Zamknij" aria-label="Fermer"><svg class="icon"><use href="#i-x"/></svg></button>
-  <img src="" alt="" />
-</div>
-
-<script src="script.js"></script>
+<script src="script.js?v=20261002b"></script>
 </body>
 </html>
