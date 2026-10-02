@@ -237,7 +237,7 @@ header {
 .hero {
   background:
     linear-gradient(rgba(15, 23, 32, 0.75), rgba(15, 23, 32, 0.75)),
-    url("https://images.unsplash.com/photo-1613214149922-f1809c99b414?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+    url("images/laweta.jpeg") center/cover no-repeat;
   color: var(--white);
   min-height: 88vh;
   display: flex;
